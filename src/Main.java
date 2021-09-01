@@ -6,5 +6,7 @@ public class Main {
         HeaderTag h2 = new HeaderTag("Vores id nr. ", "Her er vores h2 tag", 2);
         System.out.println(h1.toHTMLString());
 
+        ATag tag1 = new ATag("100", "Link til Dr.)
+
     }
 }

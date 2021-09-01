@@ -1,4 +1,4 @@
-public class  HeaderTag extends HTMLTag {
+public class HeaderTag extends HTMLTag {
 
     private int number;
 
