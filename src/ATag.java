@@ -4,7 +4,7 @@ public class ATag extends HTMLTag {
     //<a href="https://www.google.dk/">Link til GL</a>
 
     private String url;
-    ArrayList<String> arr = new ArrayList<>();
+    private ArrayList<String> arr = new ArrayList<>();
 
 
     public ATag(String id, String text, String url) {
@@ -21,6 +21,14 @@ public class ATag extends HTMLTag {
         arr.add("https://fyens.dk/");
         arr.add("https://www.nytimes.com/");
 
+    }
+
+    public ArrayList<String> getArr() {
+        return arr;
+    }
+
+    public void setArr(ArrayList<String> ahrr) {
+        this.arr = arr;
     }
 
     public String getUrl() {
