@@ -5,11 +5,17 @@ public class PTag extends HTMLTag{
     }
     @Override
     String toHTMLString() {
-        return "<p>" + this.getText() + "</p>";
+        return "<p>" + this.getId() + this.getText() + "</p>";
     }
     @Override
     void print() {
         System.out.println(this.toHTMLString());
     }
+
+    @Override
+    public void setColor(String s) {
+
+    }
+
 
 }
